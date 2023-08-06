@@ -10,6 +10,8 @@ namespace ConsoleApp1
             int[] array = { 100, 26, 10, 99, 523 };
             int[] array2 = array.OrderByDescending(x => x).ToArray();
             Console.WriteLine(string.Join(", ", array2));
+            Console.WriteLine(string.Join(", ", array));
+
         }
     }
 }
